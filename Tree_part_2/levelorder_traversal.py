@@ -74,6 +74,7 @@ def levelorder(root):
 
     return ans
 
-x=levelorder(root)
-x.reverse()
-print(x)
+print(levelorder(root))
+
+
+ 
