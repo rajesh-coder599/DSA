@@ -14,7 +14,6 @@ for i in times:
     z=i[2]
 
     adj_list[x-1].append([y,z])
-    adj_list[y-1].append([x,z])
 
 heap=[]
 t=[float("inf")]*n

@@ -27,4 +27,4 @@ for i in range(n):
         ans+=1
         dfs(i,visited,adj_mat)
 
-print(ans) 
+print(ans)

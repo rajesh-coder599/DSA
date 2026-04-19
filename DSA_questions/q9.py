@@ -14,9 +14,7 @@ def mini_dis(nums):
                 ans=abs(dic[y]-i)
             else:
                 ans=min(ans,abs(dic[y]-i))
-            dic[y]=i
-        else:
-            dic[nums[i]]=i
+        dic[nums[i]]=i
 
     return ans
 

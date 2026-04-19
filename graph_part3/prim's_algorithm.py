@@ -42,8 +42,8 @@ while len(heap)>0:
         continue
     visited[node]=True
     ans+=weight
-    for i,j in adj_list[node]:
-        if not visited[i]:
-            heapq.heappush(heap,(j,i))
+    for nei,w in adj_list[node]:
+        if not visited[nei]:
+            heapq.heappush(heap,(w,nei))
 
 print(ans)
